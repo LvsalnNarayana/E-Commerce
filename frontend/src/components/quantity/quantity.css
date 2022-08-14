@@ -1,0 +1,10 @@
+.qty_btn {
+    padding: 10px !important;
+    font-size: 20px !important;
+    font-weight: 900;
+    color: black;
+}
+.qty_badge{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

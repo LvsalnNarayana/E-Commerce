@@ -1,0 +1,14 @@
+GET - http://localhost:5000/api/products - get all products - No login
+
+GET - http://localhost:5000/api/products:id - get product by id - No login 
+
+   if user logged in [
+       verify if product is in cart [
+           enable quantity
+       ]
+   ]
+
+POST - http://localhost:5000/api/users/login - Login user and create user in request
+
+GET - http://localhost:5000/api/users/:id/cart - Get user cart
+POST - http://localhost:5000/api/users/:id/cart - Post user cart

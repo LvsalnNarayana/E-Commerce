@@ -1,0 +1,48 @@
+.cart_tr {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.cart_td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cart_tr_head th {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.cart_td:last-child {
+    width: 150%;
+}
+
+.form-control,
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn {
+    font-size: 16px !important;
+    border-radius: 5px !important;
+    text-transform: none;
+    letter-spacing: 1px;
+    outline: none !important;
+    box-shadow: none !important;
+    font-weight: 500;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.list_item{
+    font-size: 18px !important;
+}

@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+}
+
+.product_link {
+    text-decoration: none;
+}
+
+.product_link:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
